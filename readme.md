@@ -8,7 +8,7 @@
 
 > To-Do List feito em javascript puro com direito a edição da lista e salvamento no localstorage.
 
-### ✨ [Demo](indisponível)
+### ✨ [Demo](https://liststein.netlify.app/)
 
 ## Autor
 
