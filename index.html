@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liststein</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/todolist.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/logo.svg">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/logo.svg">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/logo.svg">
+    <link rel="apple-touch-icon-precomposed" href="img/logo.svg">
+    <link rel="shortcut icon" href="img/logo.svg">
+</head>
+<body>
+    <div class="todo-list__app">
+        <div class="todo-add-item__container">
+            <h1 class="heading">Liststein</h1>
+            <form action="#" class="todo-add-item" id="todo-add">
+                <input class="inputItem" id="item-input" type="text" name="text" placeholder="Novo item">
+                <input id="add-item" type="submit" value="OK">
+            </form>
+        </div>
+
+        <div class="todo-list__container">
+            <ul class="row" id="todo-list">
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/todolist.js"></script>
+</body>
+
+</html>
